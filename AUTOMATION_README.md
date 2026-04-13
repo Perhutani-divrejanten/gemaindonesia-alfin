@@ -1,27 +1,27 @@
-# 📰 Script Automation: Generate 34 Portal Berita
+# ?? Script Automation: Generate 34 Portal Berita
 
 Saya telah membuat sistem otomatis untuk generate **34 folder website portal berita** dengan tema yang berbeda-beda, tapi konten yang sama.
 
 ---
 
-## 📋 File yang Dibuat
+## ?? File yang Dibuat
 
 ### 1. **`tools/sites-config.json`**
 Template konfigurasi untuk 34 portal berita. Berisi:
 - **folderName**: Nama folder untuk setiap site (site-01, site-02, dst)
 - **siteName**: Nama portal berita (akan replace "BizNews")
-- **email**: Email portal (akan replace "IndonesiaDaily33@gmail.com")
-- **socialHandle**: Handle social media (akan replace "indonesiadaily")
+- **email**: Email portal (akan replace "GemaIndonesia33@gmail.com")
+- **socialHandle**: Handle social media (akan replace "GemaIndonesia")
 - **colors**: Tema warna
-  - **primary**: Warna utama kuning (contoh: #FFCC00 → custom)
-  - **dark**: Warna gelap hitam (contoh: #1E2024 → custom)
+  - **primary**: Warna utama kuning (contoh: #FFCC00 ? custom)
+  - **dark**: Warna gelap hitam (contoh: #1E2024 ? custom)
   - **secondary**: Warna sekunder
 
 ### 2. **`tools/generate-sites.js`**
 Script Node.js yang akan:
 1. Membaca `sites-config.json`
 2. Untuk setiap dari 34 site:
-   - Copy folder **BizNews** → folder baru
+   - Copy folder **BizNews** ? folder baru
    - Replace otomatis di **semua file** (.html, .css, .js, .json):
      - Nama portal berita
      - Email
@@ -30,7 +30,7 @@ Script Node.js yang akan:
 
 ---
 
-## 🚀 Cara Menggunakan
+## ?? Cara Menggunakan
 
 ### **Langkah 1: Siapkan Daftar Portal & Warna**
 
@@ -93,37 +93,37 @@ node tools/generate-sites.js
 
 Script akan membuat 34 folder baru:
 ```
-📁 site-01-techdaily/
-📁 site-02-sportsdaily/
-📁 site-03-financedaily/
+?? site-01-techdaily/
+?? site-02-sportsdaily/
+?? site-03-financedaily/
 ...
-📁 site-34-...
+?? site-34-...
 ```
 
 Setiap folder berisi website portal berita lengkap dengan:
-- ✅ Nama portal + email + social handle custom
-- ✅ Warna tema sesuai konfigurasi
-- ✅ Konten/artikel sama persis
+- ? Nama portal + email + social handle custom
+- ? Warna tema sesuai konfigurasi
+- ? Konten/artikel sama persis
 
 ---
 
-## 📝 Yang Akan Di-Replace Otomatis
+## ?? Yang Akan Di-Replace Otomatis
 
 Script akan mengganti di **semua file** (.html, .css, .js):
 
 | Yang Direplac | Diganti Dengan |
 |---|---|
 | `BizNews` | `siteName` dari config |
-| `IndonesiaDaily` | `siteName` (tanpa spaces) |
-| `indonesiadaily` | `socialHandle` |
-| `IndonesiaDaily33@gmail.com` | `email` |
+| `GemaIndonesia` | `siteName` (tanpa spaces) |
+| `GemaIndonesia` | `socialHandle` |
+| `GemaIndonesia33@gmail.com` | `email` |
 | `#FFCC00` (primary) | Warna primary dari config |
 | `#1E2024` (dark) | Warna dark dari config |
 | `#31404B` (secondary) | Warna secondary dari config |
 
 ---
 
-## 🔄 Jika Ingin Generate Ulang
+## ?? Jika Ingin Generate Ulang
 
 Kalau Anda ingin update warna atau nama portal, tinggal:
 1. Edit `sites-config.json`
@@ -132,7 +132,7 @@ Kalau Anda ingin update warna atau nama portal, tinggal:
 
 ---
 
-## ⚡ Contoh Cepat (Pre-filled)
+## ? Contoh Cepat (Pre-filled)
 
 Di `sites-config.json` sudah ada **34 template dengan warna berbeda**. Kalau Anda ingin test cepat:
 
@@ -143,7 +143,7 @@ Di `sites-config.json` sudah ada **34 template dengan warna berbeda**. Kalau And
 
 ---
 
-## 🎨 Color Palette Suggestions
+## ?? Color Palette Suggestions
 
 Jika belum punya ide warna, berikut saran:
 
@@ -162,7 +162,7 @@ Jika belum punya ide warna, berikut saran:
 
 ---
 
-## 📞 Troubleshooting
+## ?? Troubleshooting
 
 ### Script error "Config not found"
 - Pastikan Anda menjalankan dari folder yang tepat
@@ -179,14 +179,16 @@ Jika belum punya ide warna, berikut saran:
 
 ---
 
-## ✨ Keuntungan Sistem Ini
+## ? Keuntungan Sistem Ini
 
-✅ **Otomatis**: Generate 34 folder sekaligus dalam hitungan detik  
-✅ **Consistent**: Semua file ter-replace dengan sempurna  
-✅ **Flexible**: Gampang di-edit dan di-update  
-✅ **Scalable**: Bisa di-expand ke lebih dari 34 jika perlu  
-✅ **Safe**: Original folder BizNews tidak akan di-delete  
+? **Otomatis**: Generate 34 folder sekaligus dalam hitungan detik  
+? **Consistent**: Semua file ter-replace dengan sempurna  
+? **Flexible**: Gampang di-edit dan di-update  
+? **Scalable**: Bisa di-expand ke lebih dari 34 jika perlu  
+? **Safe**: Original folder BizNews tidak akan di-delete  
 
 ---
 
-Sekarang tinggal Anda cari nama-nama 34 portal berita dan warna-warnanya, terus edit config file dan jalankan scriptnya! 🚀
+Sekarang tinggal Anda cari nama-nama 34 portal berita dan warna-warnanya, terus edit config file dan jalankan scriptnya! ??
+
+

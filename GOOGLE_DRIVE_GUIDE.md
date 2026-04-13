@@ -1,15 +1,15 @@
-# Cara Upload Gambar ke Google Drive untuk Indonesia Daily
+# Cara Upload Gambar ke Google Drive untuk Gema Indonesia
 
 ## Langkah-langkah Upload Gambar:
 
 ### 1. Upload Gambar ke Google Drive
 - Buka [Google Drive](https://drive.google.com)
 - Upload gambar berita ke folder yang diinginkan
-- Klik kanan pada gambar → **Get shareable link**
+- Klik kanan pada gambar ? **Get shareable link**
 
 ### 2. Ubah Permission Gambar
 - Pastikan gambar di-set ke **"Anyone with the link can view"**
-- Klik kanan gambar → Share → Change ke "Anyone with the link"
+- Klik kanan gambar ? Share ? Change ke "Anyone with the link"
 
 ### 3. Copy Link Sharing
 Link yang didapat akan seperti ini:
